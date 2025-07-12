@@ -1,0 +1,55 @@
+.cSidebar {
+	width: 350px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	border-right: 1px solid #dedede;
+	height: auto;
+	overflow-y: auto;
+}
+
+.cFrame {
+	width: 100%;
+	margin-left: 350px;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.contentView {
+	background-color: #0078d3;
+	padding: 20px;
+}
+
+.contentView h2 {
+	color: #fff;
+}
+
+.contentView p {
+	color: #fff;
+}
+
+.frameView {
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.frameView p.note {
+	font-size: 11px;
+	color: #3d3d3d;
+	margin: 0;
+}
+
+.frameView ul li {
+	font-size: 11px;
+	color: #3d3d3d;
+}
+
+.iframe {
+	margin-top: 10px;
+}
+
+.none {
+	display: none;
+}

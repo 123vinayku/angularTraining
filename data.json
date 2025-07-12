@@ -1,0 +1,956 @@
+[
+	{
+		"tech": "HTML5",
+		"id": "html5",
+		"concepts": [
+			{ "label": "HTML HOME", "link": "https://www.w3schools.com/html/", "checked": true },
+			{ "label": "HTML Introduction", "link": "https://www.w3schools.com/html/html_intro.asp", "checked": false },
+			{ "label": "HTML Editors", "link": "https://www.w3schools.com/html/html_editors.asp", "checked": false },
+			{ "label": "HTML Basic", "link": "https://www.w3schools.com/html/html_basic.asp", "checked": false },
+			{ "label": "HTML Elements", "link": "https://www.w3schools.com/html/html_elements.asp", "checked": false },
+			{ "label": "HTML Attributes", "link": "https://www.w3schools.com/html/html_attributes.asp", "checked": false },
+			{ "label": "HTML Headings", "link": "https://www.w3schools.com/html/html_headings.asp", "checked": false },
+			{ "label": "HTML Paragraphs", "link": "https://www.w3schools.com/html/html_paragraphs.asp", "checked": false },
+			{ "label": "HTML Styles", "link": "https://www.w3schools.com/html/html_styles.asp", "checked": false },
+			{ "label": "HTML Formatting", "link": "https://www.w3schools.com/html/html_formatting.asp", "checked": false },
+			{ "label": "HTML Quotations", "link": "https://www.w3schools.com/html/html_quotation_elements.asp", "checked": false },
+			{ "label": "HTML Comments", "link": "https://www.w3schools.com/html/html_comments.asp", "checked": false },
+			{ "label": "HTML Colors", "link": "https://www.w3schools.com/html/html_colors.asp", "checked": false },
+			{ "label": "HTML CSS", "link": "https://www.w3schools.com/html/html_css.asp", "checked": false },
+			{ "label": "HTML Links", "link": "https://www.w3schools.com/html/html_links.asp", "checked": false },
+			{ "label": "HTML Images", "link": "https://www.w3schools.com/html/html_images.asp", "checked": false },
+			{ "label": "HTML Page Title", "link": "https://www.w3schools.com/html/html_title.asp", "checked": false },
+			{ "label": "HTML Favicon", "link": "https://www.w3schools.com/html/html_favicon.asp", "checked": false },
+			{ "label": "HTML Tables", "link": "https://www.w3schools.com/html/html_tables.asp", "checked": false },
+			{ "label": "HTML Lists", "link": "https://www.w3schools.com/html/html_lists.asp", "checked": false },
+			{ "label": "HTML Block & Inline", "link": "https://www.w3schools.com/html/html_blocks.asp", "checked": false },
+			{ "label": "HTML Div Element", "link": "https://www.w3schools.com/html/html_div.asp", "checked": false },
+			{ "label": "HTML class Attribute", "link": "https://www.w3schools.com/html/html_classes.asp", "checked": false },
+			{ "label": "HTML id Attribute", "link": "https://www.w3schools.com/html/html_id.asp", "checked": false },
+			{ "label": "HTML Iframes", "link": "https://www.w3schools.com/html/html_iframe.asp", "checked": false },
+			{ "label": "HTML JavaScript", "link": "https://www.w3schools.com/html/html_scripts.asp", "checked": false },
+			{ "label": "HTML File Paths", "link": "https://www.w3schools.com/html/html_filepaths.asp", "checked": false },
+			{ "label": "HTML Head Element", "link": "https://www.w3schools.com/html/html_head.asp", "checked": false },
+			{ "label": "HTML Layout", "link": "https://www.w3schools.com/html/html_layout.asp", "checked": false },
+			{ "label": "HTML Responsive", "link": "https://www.w3schools.com/html/html_responsive.asp", "checked": false },
+			{ "label": "HTML Computercode", "link": "https://www.w3schools.com/html/html_computercode_elements.asp", "checked": false },
+			{ "label": "HTML Semantics", "link": "https://www.w3schools.com/html/html5_semantic_elements.asp", "checked": false },
+			{ "label": "HTML Style Guide", "link": "https://www.w3schools.com/html/html5_syntax.asp", "checked": false },
+			{ "label": "HTML Entities", "link": "https://www.w3schools.com/html/html_entities.asp", "checked": false },
+			{ "label": "HTML Symbols", "link": "https://www.w3schools.com/html/html_symbols.asp", "checked": false },
+			{ "label": "HTML Emojis", "link": "https://www.w3schools.com/html/html_emojis.asp", "checked": false },
+			{ "label": "HTML Charset", "link": "https://www.w3schools.com/html/html_charset.asp", "checked": false },
+			{ "label": "HTML URL Encode", "link": "https://www.w3schools.com/html/html_urlencode.asp", "checked": false },
+			{ "label": "HTML vs XHTML", "link": "https://www.w3schools.com/html/html_xhtml.asp", "checked": false },
+			{ "label": "HTML Forms", "link": "https://www.w3schools.com/html/html_forms.asp", "checked": false },
+			{ "label": "HTML From Attributes", "link": "https://www.w3schools.com/html/html_form_attributes.asp", "checked": false },
+			{ "label": "HTML Form Elements", "link": "https://www.w3schools.com/html/html_form_elements.asp", "checked": false },
+			{ "label": "HTML Input Types", "link": "https://www.w3schools.com/html/html_form_input_types.asp", "checked": false },
+			{ "label": "HTML Input Attributes", "link": "https://www.w3schools.com/html/html_form_attributes.asp", "checked": false },
+			{
+				"label": "HTML Input Form Attributes",
+				"link": "https://www.w3schools.com/html/html_form_attributes_form.asp",
+				"checked": false
+			},
+			{ "label": "HTML Canvas", "link": "https://www.w3schools.com/html/html5_canvas.asp", "checked": false },
+			{ "label": "HTML SVG", "link": "https://www.w3schools.com/html/html5_svg.asp", "checked": false },
+			{ "label": "HTML Media", "link": "https://www.w3schools.com/html/html_media.asp", "checked": false },
+			{ "label": "HTML Video", "link": "https://www.w3schools.com/html/html5_video.asp", "checked": false },
+			{ "label": "HTML Audio", "link": "https://www.w3schools.com/html/html5_audio.asp", "checked": false },
+			{ "label": "HTML Plug-ins", "link": "https://www.w3schools.com/html/html_object.asp", "checked": false },
+			{ "label": "HTML YouTube", "link": "https://www.w3schools.com/html/html_youtube.asp", "checked": false },
+			{ "label": "HTML Geolocation", "link": "https://www.w3schools.com/html/html5_geolocation.asp", "checked": false },
+			{ "label": "HTML Drag/Drop", "link": "https://www.w3schools.com/html/html5_draganddrop.asp", "checked": false },
+			{ "label": "HTML Web Storage", "link": "https://www.w3schools.com/html/html5_webstorage.asp", "checked": false },
+			{ "label": "HTML Web Workers", "link": "https://www.w3schools.com/html/html5_webworkers.asp", "checked": false },
+			{ "label": "HTML SSE", "link": "https://www.w3schools.com/html/html5_serversentevents.asp", "checked": false }
+		],
+		"assignments": []
+	},
+	{
+		"tech": "CSS3",
+		"id": "css3",
+		"concepts": [
+			{ "label": "CSS HOME", "link": "https://www.w3schools.com/css/", "checked": true },
+			{ "label": "CSS Introduction", "link": "https://www.w3schools.com/css/css_intro.asp", "checked": false },
+			{ "label": "CSS Syntax", "link": "https://www.w3schools.com/css/css_syntax.asp", "checked": false },
+			{ "label": "CSS Selectors", "link": "https://www.w3schools.com/css/css_selectors.asp", "checked": false },
+			{ "label": "CSS How To", "link": "https://www.w3schools.com/css/css_howto.asp", "checked": false },
+			{ "label": "CSS Comments", "link": "https://www.w3schools.com/css/css_comments.asp", "checked": false },
+			{ "label": "CSS Colors", "link": "https://www.w3schools.com/css/css_colors.asp", "checked": false },
+			{ "label": "CSS Backgrounds", "link": "https://www.w3schools.com/css/css_background.asp", "checked": false },
+			{ "label": "CSS Borders", "link": "https://www.w3schools.com/css/css_border.asp", "checked": false },
+			{ "label": "CSS Margins", "link": "https://www.w3schools.com/css/css_margin.asp", "checked": false },
+			{ "label": "CSS Padding", "link": "https://www.w3schools.com/css/css_padding.asp", "checked": false },
+			{ "label": "CSS Height/Width", "link": "https://www.w3schools.com/css/css_dimension.asp", "checked": false },
+			{ "label": "CSS Box Model", "link": "https://www.w3schools.com/css/css_boxmodel.asp", "checked": false },
+			{ "label": "CSS Outline", "link": "https://www.w3schools.com/css/css_outline.asp", "checked": false },
+			{ "label": "CSS Text", "link": "https://www.w3schools.com/css/css_text.asp", "checked": false },
+			{ "label": "CSS Fonts", "link": "https://www.w3schools.com/css/css_font.asp", "checked": false },
+			{ "label": "CSS Icons", "link": "https://www.w3schools.com/css/css_icons.asp", "checked": false },
+			{ "label": "CSS Links", "link": "https://www.w3schools.com/css/css_link.asp", "checked": false },
+			{ "label": "CSS Lists", "link": "https://www.w3schools.com/css/css_list.asp", "checked": false },
+			{ "label": "CSS Tables", "link": "https://www.w3schools.com/css/css_table.asp", "checked": false },
+			{ "label": "CSS Display", "link": "https://www.w3schools.com/css/css_display_visibility.asp", "checked": false },
+			{ "label": "CSS Max-width", "link": "https://www.w3schools.com/css/css_max-width.asp", "checked": false },
+			{ "label": "CSS Position", "link": "https://www.w3schools.com/css/css_positioning.asp", "checked": false },
+			{ "label": "CSS zIndex", "link": "https://www.w3schools.com/css/css_z-index.asp", "checked": false },
+			{ "label": "CSS Overflow", "link": "https://www.w3schools.com/css/css_overflow.asp", "checked": false },
+			{ "label": "CSS Float", "link": "https://www.w3schools.com/css/css_float.asp", "checked": false },
+			{ "label": "CSS Inline-block", "link": "https://www.w3schools.com/css/css_inline-block.asp", "checked": false },
+			{ "label": "CSS Align", "link": "https://www.w3schools.com/css/css_align.asp", "checked": false },
+			{ "label": "CSS Combinators", "link": "https://www.w3schools.com/css/css_combinators.asp", "checked": false },
+			{ "label": "CSS Pseudo-classes", "link": "https://www.w3schools.com/css/css_pseudo_classes.asp", "checked": false },
+			{ "label": "CSS Pseudo-elements", "link": "https://www.w3schools.com/css/css_pseudo_elements.asp", "checked": false },
+			{ "label": "CSS Opacity", "link": "https://www.w3schools.com/css/css_image_transparency.asp", "checked": false },
+			{ "label": "CSS Navigation Bar", "link": "https://www.w3schools.com/css/css_navbar.asp", "checked": false },
+			{ "label": "CSS Dropdowns", "link": "https://www.w3schools.com/css/css_dropdowns.asp", "checked": false },
+			{ "label": "CSS Image Gallery", "link": "https://www.w3schools.com/css/css_image_gallery.asp", "checked": false },
+			{ "label": "CSS Image Sprites", "link": "https://www.w3schools.com/css/css_image_sprites.asp", "checked": false },
+			{ "label": "CSS Attribute Selectors", "link": "https://www.w3schools.com/css/css_attribute_selectors.asp", "checked": false },
+			{ "label": "CSS Forms", "link": "https://www.w3schools.com/css/css_form.asp", "checked": false },
+			{ "label": "CSS Counters", "link": "https://www.w3schools.com/css/css_counters.asp", "checked": false },
+			{ "label": "CSS Website Layout", "link": "https://www.w3schools.com/css/css_website_layout.asp", "checked": false },
+			{ "label": "CSS Units", "link": "https://www.w3schools.com/css/css_units.asp", "checked": false },
+			{ "label": "CSS Specificity", "link": "https://www.w3schools.com/css/css_specificity.asp", "checked": false },
+			{ "label": "CSS Important", "link": "https://www.w3schools.com/css/css_important.asp", "checked": false },
+			{ "label": "CSS Math Functions", "link": "https://www.w3schools.com/css/css_functions_math.asp", "checked": false },
+			{ "label": "CSS Rounded Corners", "link": "https://www.w3schools.com/css/css3_borders.asp", "checked": false },
+			{ "label": "CSS Border Images", "link": "https://www.w3schools.com/css/css3_border_images.asp", "checked": false },
+			{ "label": "CSS Color Keywords", "link": "https://www.w3schools.com/cssref/css_colors_keywords.asp", "checked": false },
+			{ "label": "CSS Gradients", "link": "https://www.w3schools.com/css/css3_gradients.asp", "checked": false },
+			{ "label": "CSS Shadows", "link": "https://www.w3schools.com/css/css3_shadows.asp", "checked": false },
+			{ "label": "CSS Text Effects", "link": "https://www.w3schools.com/css/css3_text_effects.asp", "checked": false },
+			{ "label": "CSS 2D Transforms", "link": "https://www.w3schools.com/css/css3_2dtransforms.asp", "checked": false },
+			{ "label": "CSS 3D Transforms", "link": "https://www.w3schools.com/css/css3_3dtransforms.asp", "checked": false },
+			{ "label": "CSS Transitions", "link": "https://www.w3schools.com/css/css3_transitions.asp", "checked": false },
+			{ "label": "CSS Animations", "link": "https://www.w3schools.com/css/css3_animations.asp", "checked": false },
+			{ "label": "CSS Tooltips", "link": "https://www.w3schools.com/css/css_tooltip.asp", "checked": false },
+			{ "label": "CSS Style Images", "link": "https://www.w3schools.com/css/css_image_transparency.asp", "checked": false },
+			{ "label": "CSS Centering Images", "link": "https://www.w3schools.com/css/css_align.asp", "checked": false },
+			{ "label": "CSS Image Filter Effects", "link": "https://www.w3schools.com/css/css3_images.asp", "checked": false },
+			{ "label": "CSS Image Shapes", "link": "https://www.w3schools.com/css/css3_images.asp", "checked": false },
+			{ "label": "CSS object-position", "link": "https://www.w3schools.com/cssref/css3_pr_object-position.asp", "checked": false },
+			{ "label": "CSS Masking", "link": "https://www.w3schools.com/css/css3_masking.asp", "checked": false },
+			{ "label": "CSS Buttons", "link": "https://www.w3schools.com/css/css3_buttons.asp", "checked": false },
+			{ "label": "CSS Pagination", "link": "https://www.w3schools.com/css/css3_pagination.asp", "checked": false },
+			{ "label": "CSS Multiple Columns", "link": "https://www.w3schools.com/css/css3_multiple_columns.asp", "checked": false },
+			{ "label": "CSS User Interface", "link": "https://www.w3schools.com/css/css3_user_interface.asp", "checked": false },
+			{ "label": "CSS Variables", "link": "https://www.w3schools.com/css/css3_variables.asp", "checked": false },
+			{ "label": "CSS Property", "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@property", "checked": false },
+			{ "label": "CSS Box Sizing", "link": "https://www.w3schools.com/css/css3_box-sizing.asp", "checked": false },
+			{ "label": "CSS Media Queries", "link": "https://www.w3schools.com/css/css_rwd_mediaqueries.asp", "checked": false },
+			{ "label": "CSS MQ Examples Queries", "link": "https://www.w3schools.com/css/css_rwd_examples.asp", "checked": false },
+			{ "label": "CSS Flexbox", "link": "https://www.w3schools.com/css/css3_flexbox.asp", "checked": false },
+			{ "label": "CSS Responsive Web Design", "link": "https://www.w3schools.com/css/css_rwd_intro.asp", "checked": false },
+			{ "label": "CSS Viewport", "link": "https://www.w3schools.com/css/css_rwd_viewport.asp", "checked": false },
+			{ "label": "CSS Grid View", "link": "https://www.w3schools.com/css/css_grid.asp", "checked": false },
+			{
+				"label": "CSS Media Queries",
+				"link": "https://www.w3schools.com/css/css_rwd_mediaqueries.asp",
+				"checked": false
+			},
+			{ "label": "CSS Responsive Images", "link": "https://www.w3schools.com/css/css_rwd_images.asp", "checked": false },
+			{ "label": "CSS Responsive Videos", "link": "https://www.w3schools.com/css/css_rwd_video.asp", "checked": false },
+			{ "label": "CSS Frameworks", "link": "https://www.w3schools.com/css/css_frameworks.asp", "checked": false },
+			{ "label": "CSS Responsive Templates", "link": "https://www.w3schools.com/w3css/w3css_templates.asp", "checked": false },
+			{ "label": "CSS Grid Layout", "link": "https://www.w3schools.com/css/css_grid.asp", "checked": false },
+			{ "label": "CSS Grid Container", "link": "https://www.w3schools.com/css/css_grid_container.asp", "checked": false },
+			{ "label": "CSS Grid Item", "link": "https://www.w3schools.com/css/css_grid_item.asp", "checked": false }
+		],
+		"assignments": []
+	},
+	{
+		"tech": "JavaScript",
+		"id": "javascript",
+		"concepts": [
+			{
+				"label": "JavaScript HOME",
+				"link": "https://www.w3schools.com/js/",
+				"checked": true
+			},
+			{
+				"label": "JavaScript Introduction",
+				"link": "https://www.w3schools.com/js/js_introduction.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Where To",
+				"link": "https://www.w3schools.com/js/js_where_to.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Output",
+				"link": "https://www.w3schools.com/js/js_output.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Statements",
+				"link": "https://www.w3schools.com/js/js_statements.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Syntax",
+				"link": "https://www.w3schools.com/js/js_syntax.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Comments",
+				"link": "https://www.w3schools.com/js/js_comments.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Variables",
+				"link": "https://www.w3schools.com/js/js_variables.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Let",
+				"link": "https://www.w3schools.com/js/js_let.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Const",
+				"link": "https://www.w3schools.com/js/js_const.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Operators",
+				"link": "https://www.w3schools.com/js/js_operators.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Arithmetic",
+				"link": "https://www.w3schools.com/js/js_arithmetic.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Assignment",
+				"link": "https://www.w3schools.com/js/js_assignment.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Data Types",
+				"link": "https://www.w3schools.com/js/js_data_types.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Functions",
+				"link": "https://www.w3schools.com/js/js_functions.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Objects",
+				"link": "https://www.w3schools.com/js/js_objects.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Events",
+				"link": "https://www.w3schools.com/js/js_events.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Strings",
+				"link": "https://www.w3schools.com/js/js_strings.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript String Methods",
+				"link": "https://www.w3schools.com/js/js_string_methods.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript String Search",
+				"link": "https://www.w3schools.com/js/js_string_search.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript String Templates",
+				"link": "https://www.w3schools.com/js/js_string_templates.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Numbers",
+				"link": "https://www.w3schools.com/js/js_numbers.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript BigInt",
+				"link": "https://www.w3schools.com/js/js_bigint.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Number Methods",
+				"link": "https://www.w3schools.com/js/js_number_methods.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Number Properties",
+				"link": "https://www.w3schools.com/js/js_number_properties.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Arrays",
+				"link": "https://www.w3schools.com/js/js_arrays.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Array Methods",
+				"link": "https://www.w3schools.com/js/js_array_methods.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Array Search",
+				"link": "https://www.w3schools.com/js/js_array_search.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Array Sort",
+				"link": "https://www.w3schools.com/js/js_array_sort.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Array Iteration",
+				"link": "https://www.w3schools.com/js/js_array_iteration.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Array Const",
+				"link": "https://www.w3schools.com/js/js_array_const.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Dates",
+				"link": "https://www.w3schools.com/js/js_dates.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Date Formats",
+				"link": "https://www.w3schools.com/js/js_date_formats.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Date Methods",
+				"link": "https://www.w3schools.com/js/js_date_methods.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Set Methods",
+				"link": "https://www.w3schools.com/js/js_set_methods.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Math",
+				"link": "https://www.w3schools.com/js/js_math.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Random",
+				"link": "https://www.w3schools.com/js/js_random.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Booleans",
+				"link": "https://www.w3schools.com/js/js_booleans.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Comparisons",
+				"link": "https://www.w3schools.com/js/js_comparisons.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript If Else",
+				"link": "https://www.w3schools.com/js/js_if_else.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Switch",
+				"link": "https://www.w3schools.com/js/js_switch.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript For Loop",
+				"link": "https://www.w3schools.com/js/js_for_loop.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript For In",
+				"link": "https://www.w3schools.com/js/js_for_in.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript For Of",
+				"link": "https://www.w3schools.com/js/js_for_of.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript While Loop",
+				"link": "https://www.w3schools.com/js/js_while_loop.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Break and Continue",
+				"link": "https://www.w3schools.com/js/js_break_and_continue.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Iterables",
+				"link": "https://www.w3schools.com/js/js_iterables.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Sets",
+				"link": "https://www.w3schools.com/js/js_sets.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Set Methods",
+				"link": "https://www.w3schools.com/js/js_set_methods.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Maps",
+				"link": "https://www.w3schools.com/js/js_maps.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Map Methods",
+				"link": "https://www.w3schools.com/js/js_map_methods.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript typeof",
+				"link": "https://www.w3schools.com/js/js_typeof.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Type Conversion",
+				"link": "https://www.w3schools.com/js/js_type_conversion.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Destructing",
+				"link": "https://www.w3schools.com/js/js_destructing.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Bitwise",
+				"link": "https://www.w3schools.com/js/js_bitwise.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript RegExp",
+				"link": "https://www.w3schools.com/js/js_regexp.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Precedence",
+				"link": "https://www.w3schools.com/js/js_precedence.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Errors",
+				"link": "https://www.w3schools.com/js/js_errors.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Scope",
+				"link": "https://www.w3schools.com/js/js_scope.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Hoisting",
+				"link": "https://www.w3schools.com/js/js_hoisting.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Strict Mode",
+				"link": "https://www.w3schools.com/js/js_strict_mode.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript this Keyword",
+				"link": "https://www.w3schools.com/js/js_this_keyword.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Arrow Function",
+				"link": "https://www.w3schools.com/js/js_arrow_function.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Classes",
+				"link": "https://www.w3schools.com/js/js_classes.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Modules",
+				"link": "https://www.w3schools.com/js/js_modules.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript JSON",
+				"link": "https://www.w3schools.com/js/js_json_intro.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Debugging",
+				"link": "https://www.w3schools.com/js/js_debugging.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Style Guide",
+				"link": "https://www.w3schools.com/js/js_style_guide.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Best Practices",
+				"link": "https://www.w3schools.com/js/js_best_practices.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Mistakes",
+				"link": "https://www.w3schools.com/js/js_mistakes.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Performance",
+				"link": "https://www.w3schools.com/js/js_performance.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Reserved Words",
+				"link": "https://www.w3schools.com/js/js_reserved_words.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Versions",
+				"link": "https://www.w3schools.com/js/js_versions.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Objects",
+				"link": "https://www.w3schools.com/js/js_objects.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Functions",
+				"link": "https://www.w3schools.com/js/js_functions.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Classes",
+				"link": "https://www.w3schools.com/js/js_classes.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Async",
+				"link": "https://www.w3schools.com/js/js_async.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript HTML DOM",
+				"link": "https://www.w3schools.com/js/js_htmldom.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Browser DOM",
+				"link": "https://www.w3schools.com/js/js_htmldom_document.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Web APIs",
+				"link": "https://www.w3schools.com/js/js_api_intro.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript AJAX",
+				"link": "https://www.w3schools.com/js/js_ajax_intro.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript JSON",
+				"link": "https://www.w3schools.com/js/js_json_intro.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript vs. jQuery",
+				"link": "https://www.w3schools.com/jquery/jquery_vsjs.asp",
+				"checked": false
+			},
+			{
+				"label": "JavaScript Graphics",
+				"link": "https://www.w3schools.com/js/js_graphics.asp",
+				"checked": false
+			}
+		],
+		"assignments": []
+	},
+	{
+		"tech": "TypeScript",
+		"id": "typescript",
+		"concepts": [
+			{
+				"label": "TS HOME",
+				"link": "https://www.w3schools.com/typescript/index.php",
+				"checked": true
+			},
+			{
+				"label": "TS Introduction",
+				"link": "https://www.w3schools.com/typescript/typescript_intro.php",
+				"checked": false
+			},
+			{
+				"label": "TS Get Started",
+				"link": "https://www.w3schools.com/typescript/typescript_getstarted.php",
+				"checked": false
+			},
+			{
+				"label": "TS Simple Types",
+				"link": "https://www.w3schools.com/typescript/typescript_simple_types.php",
+				"checked": false
+			},
+			{
+				"label": "TS Special Types",
+				"link": "https://www.w3schools.com/typescript/typescript_special_types.php",
+				"checked": false
+			},
+			{
+				"label": "TS Arrays",
+				"link": "https://www.w3schools.com/typescript/typescript_arrays.php",
+				"checked": false
+			},
+			{
+				"label": "TS Tuples",
+				"link": "https://www.w3schools.com/typescript/typescript_tuples.php",
+				"checked": false
+			},
+			{
+				"label": "TS Object Types",
+				"link": "https://www.w3schools.com/typescript/typescript_object_types.php",
+				"checked": false
+			},
+			{
+				"label": "TS Enums",
+				"link": "https://www.w3schools.com/typescript/typescript_enums.php",
+				"checked": false
+			},
+			{
+				"label": "TS Aliases & Interfaces",
+				"link": "https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php",
+				"checked": false
+			},
+			{
+				"label": "TS Union Types",
+				"link": "https://www.w3schools.com/typescript/typescript_union_types.php",
+				"checked": false
+			},
+			{
+				"label": "TS Functions",
+				"link": "https://www.w3schools.com/typescript/typescript_functions.php",
+				"checked": false
+			},
+			{
+				"label": "TS Casting",
+				"link": "https://www.w3schools.com/typescript/typescript_casting.php",
+				"checked": false
+			},
+			{
+				"label": "TS Classes",
+				"link": "https://www.w3schools.com/typescript/typescript_classes.php",
+				"checked": false
+			},
+			{
+				"label": "TS Basic Generics",
+				"link": "https://www.w3schools.com/typescript/typescript_basic_generics.php",
+				"checked": false
+			},
+			{
+				"label": "TS Utility Types",
+				"link": "https://www.w3schools.com/typescript/typescript_utility_types.php",
+				"checked": false
+			},
+			{
+				"label": "TS Keyof",
+				"link": "https://www.w3schools.com/typescript/typescript_keyof.php",
+				"checked": false
+			},
+			{
+				"label": "TS Null",
+				"link": "https://www.w3schools.com/typescript/typescript_null.php",
+				"checked": false
+			},
+			{
+				"label": "TS Definitely Typed",
+				"link": "https://www.w3schools.com/typescript/typescript_definitely_typed.php",
+				"checked": false
+			},
+			{
+				"label": "TS 5 Updates",
+				"link": "https://www.w3schools.com/typescript/typescript_5_updates.php",
+				"checked": false
+			},
+			{
+				"label": "Modules and Namespaces",
+				"link": "https://www.typescriptlang.org/docs/handbook/modules/introduction.html",
+				"checked": false
+			},
+			{
+				"label": "Decorators",
+				"link": "https://www.w3schools.com/typescript/typescript_decorators.php",
+				"checked": false
+			},
+			{
+				"label": "Type Narrowing and Type Guards",
+				"link": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html",
+				"checked": false
+			},
+			{
+				"label": "Classes & OOP Concepts",
+				"link": "https://www.typescriptlang.org/docs/handbook/classes.html",
+				"checked": false
+			}
+		],
+		"assignments": []
+	},
+	{
+		"tech": "Sass/Scss",
+		"id": "scss_sass",
+		"concepts": [
+			{
+				"label": "Sass Variables",
+				"link": "https://sass-lang.com/documentation/variables",
+				"checked": true
+			},
+			{
+				"label": "Nesting Rules in SCSS",
+				"link": "https://sass-lang.com/documentation/style-rules#nesting",
+				"checked": false
+			},
+			{
+				"label": "Mixins in SCSS",
+				"link": "https://sass-lang.com/documentation/at-rules/mixin",
+				"checked": false
+			},
+			{
+				"label": "Include Usage",
+				"link": "https://sass-lang.com/documentation/at-rules/mixin#include",
+				"checked": false
+			},
+			{
+				"label": "SCSS BuiltIn Functions",
+				"link": "https://sass-lang.com/documentation/modules",
+				"checked": false
+			},
+			{
+				"label": "Color Functions in SCSS",
+				"link": "https://sass-lang.com/documentation/modules/color",
+				"checked": false
+			},
+			{
+				"label": "SCSS Partials And Import",
+				"link": "https://sass-lang.com/guide#topic-4",
+				"checked": false
+			},
+			{
+				"label": "Operators in SCSS",
+				"link": "https://sass-lang.com/documentation/operators",
+				"checked": false
+			},
+			{
+				"label": "If And Else in SCSS",
+				"link": "https://sass-lang.com/documentation/at-rules/control/if",
+				"checked": false
+			},
+			{
+				"label": "Each Loop",
+				"link": "https://sass-lang.com/documentation/at-rules/control/each",
+				"checked": false
+			},
+			{
+				"label": "For Loop",
+				"link": "https://sass-lang.com/documentation/at-rules/control/for",
+				"checked": false
+			},
+			{
+				"label": "While Loop",
+				"link": "https://sass-lang.com/documentation/at-rules/control/while",
+				"checked": false
+			},
+			{
+				"label": "Using Extend in SCSS",
+				"link": "https://sass-lang.com/documentation/at-rules/extend",
+				"checked": false
+			},
+			{
+				"label": "Creating Breakpoints with Mixins",
+				"link": "https://dev.to/snowleo208/using-scss-to-create-responsive-design-5f2m",
+				"checked": false
+			},
+			{
+				"label": "Angular Component Styles",
+				"link": "https://angular.io/guide/component-styles",
+				"checked": false
+			},
+			{
+				"label": "Style Preprocessor Options in Angular",
+				"link": "https://jsonformatter.org/scss-to-css",
+				"checked": false
+			}
+		],
+		"assignments": []
+	},
+	{
+		"tech": "Angular 16",
+		"id": "angular_16",
+		"concepts": [
+			{
+				"label": "Angular Setup Guide",
+				"link": "https://angular.io/guide/setup-local",
+				"checked": true
+			},
+			{
+				"label": "Angular CLI",
+				"link": "https://angular.io/cli/new",
+				"checked": false
+			},
+			{
+				"label": "Angular CLI Overview",
+				"link": "https://angular.io/cli",
+				"checked": false
+			},
+			{
+				"label": "Workspace And Project File Structure",
+				"link": "https://angular.io/guide/file-structure",
+				"checked": false
+			},
+			{
+				"label": "Angular Modules",
+				"link": "https://angular.io/guide/NgModules",
+				"checked": false
+			},
+			{
+				"label": "Creating Components",
+				"link": "https://angular.io/guide/component-overview",
+				"checked": false
+			},
+			{
+				"label": "Angular Template Syntax",
+				"link": "https://angular.io/guide/template-syntax",
+				"checked": false
+			},
+			{
+				"label": "Two way Binding",
+				"link": "https://angular.io/guide/forms-overview#two-way-binding",
+				"checked": false
+			},
+			{
+				"label": "BuiltIn Directives",
+				"link": "https://angular.io/guide/structural-directives",
+				"checked": false
+			},
+			{
+				"label": "Creating Custom Directives",
+				"link": "https://angular.io/guide/attribute-directives",
+				"checked": false
+			},
+			{
+				"label": "Services and DI",
+				"link": "https://angular.io/guide/architecture-services",
+				"checked": false
+			},
+			{
+				"label": "Dependency Injection",
+				"link": "https://angular.io/guide/dependency-injection",
+				"checked": false
+			},
+			{
+				"label": "Routing And Navigation",
+				"link": "https://angular.io/guide/router",
+				"checked": false
+			},
+			{
+				"label": "Angular Forms Overview",
+				"link": "https://angular.io/guide/forms-overview",
+				"checked": false
+			},
+			{
+				"label": "Reactive Forms",
+				"link": "https://angular.io/guide/reactive-forms",
+				"checked": false
+			},
+			{
+				"label": "HTTP Client Guide",
+				"link": "https://angular.io/guide/http",
+				"checked": false
+			},
+			{
+				"label": "Observables in Angular",
+				"link": "https://angular.io/guide/observables",
+				"checked": false
+			},
+			{
+				"label": "RxJS Operators",
+				"link": "https://rxjs.dev/guide/operators",
+				"checked": false
+			},
+			{
+				"label": "Component Lifecycle",
+				"link": "https://angular.io/guide/lifecycle-hooks",
+				"checked": false
+			},
+			{
+				"label": "Standalone Components",
+				"link": "https://angular.io/guide/standalone-components",
+				"checked": false
+			},
+			{
+				"label": "Angular Signals Guide",
+				"link": "https://angular.io/guide/signals",
+				"checked": false
+			},
+			{
+				"label": "Understanding Signals in Angular 16",
+				"link": "https://blog.angular.io/introducing-angular-signals-3c5b6216c6e1",
+				"checked": false
+			},
+			{
+				"label": "Component Interaction",
+				"link": "https://angular.io/guide/component-interaction",
+				"checked": false
+			},
+			{
+				"label": "Angular Pipes",
+				"link": "https://angular.io/guide/pipes",
+				"checked": false
+			},
+			{
+				"label": "Angular Signals for State",
+				"link": "https://angular.io/guide/signals",
+				"checked": false
+			},
+			{
+				"label": "NgRx Docs",
+				"link": "",
+				"checked": false
+			},
+			{
+				"label": "Angular Deployment Guide",
+				"link": "https://angular.io/guide/deployment",
+				"checked": false
+			},
+			{
+				"label": "Angular Optimization",
+				"link": "https://angular.io/guide/build",
+				"checked": false
+			},
+			{
+				"label": "Theme Creation",
+				"link": "",
+				"checked": false
+			}
+		],
+		"assignments": []
+	}
+]
