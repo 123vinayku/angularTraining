@@ -63,9 +63,14 @@
 			{ "label": "HTML Drag/Drop", "link": "https://www.w3schools.com/html/html5_draganddrop.asp", "checked": false },
 			{ "label": "HTML Web Storage", "link": "https://www.w3schools.com/html/html5_webstorage.asp", "checked": false },
 			{ "label": "HTML Web Workers", "link": "https://www.w3schools.com/html/html5_webworkers.asp", "checked": false },
-			{ "label": "HTML SSE", "link": "https://www.w3schools.com/html/html5_serversentevents.asp", "checked": false }
-		],
-		"assignments": []
+			{ "label": "HTML SSE", "link": "https://www.w3schools.com/html/html5_serversentevents.asp", "checked": false },
+			{
+				"label": "HTML Assignments",
+				"link": "",
+				"checked": false,
+				"assignments": [{ "label": "Assignment 1", "link": "https://forms.office.com/r/PcAqfSCGzK" }]
+			}
+		]
 	},
 	{
 		"tech": "CSS3",
@@ -156,9 +161,14 @@
 			{ "label": "CSS Responsive Templates", "link": "https://www.w3schools.com/w3css/w3css_templates.asp", "checked": false },
 			{ "label": "CSS Grid Layout", "link": "https://www.w3schools.com/css/css_grid.asp", "checked": false },
 			{ "label": "CSS Grid Container", "link": "https://www.w3schools.com/css/css_grid_container.asp", "checked": false },
-			{ "label": "CSS Grid Item", "link": "https://www.w3schools.com/css/css_grid_item.asp", "checked": false }
-		],
-		"assignments": []
+			{ "label": "CSS Grid Item", "link": "https://www.w3schools.com/css/css_grid_item.asp", "checked": false },
+			{
+				"label": "CSS Assignments",
+				"link": "",
+				"checked": false,
+				"assignments": [{ "label": "Assignment 1", "link": "https://forms.office.com/r/EY5Gw2L2qS" }]
+			}
+		]
 	},
 	{
 		"tech": "JavaScript",
@@ -583,9 +593,14 @@
 				"label": "JavaScript Graphics",
 				"link": "https://www.w3schools.com/js/js_graphics.asp",
 				"checked": false
+			},
+			{
+				"label": "JavaScript Assignments",
+				"link": "",
+				"checked": false,
+				"assignments": [{ "label": "Assignment 1", "link": "https://forms.office.com/r/BmbthMFf0b" }]
 			}
-		],
-		"assignments": []
+		]
 	},
 	{
 		"tech": "TypeScript",
@@ -710,9 +725,14 @@
 				"label": "Classes & OOP Concepts",
 				"link": "https://www.typescriptlang.org/docs/handbook/classes.html",
 				"checked": false
+			},
+			{
+				"label": "TypeScript Assignments",
+				"link": "",
+				"checked": false,
+				"assignments": [{ "label": "Assignment 1", "link": "https://forms.office.com/r/SxtXghzceX" }]
 			}
-		],
-		"assignments": []
+		]
 	},
 	{
 		"tech": "Sass/Scss",
@@ -797,9 +817,14 @@
 				"label": "Style Preprocessor Options in Angular",
 				"link": "https://jsonformatter.org/scss-to-css",
 				"checked": false
+			},
+			{
+				"label": "Sass/Scss Assignments",
+				"link": "",
+				"checked": false,
+				"assignments": [{ "label": "Assignment 1", "link": "https://forms.office.com/r/w2r15789q2" }]
 			}
-		],
-		"assignments": []
+		]
 	},
 	{
 		"tech": "Angular 16",
@@ -949,8 +974,13 @@
 				"label": "Theme Creation",
 				"link": "",
 				"checked": false
+			},
+			{
+				"label": "Angular Assignments",
+				"link": "",
+				"checked": false,
+				"assignments": [{ "label": "Assignment 1", "link": "https://forms.office.com/r/Fi6YBUnMSB" }]
 			}
-		],
-		"assignments": []
+		]
 	}
 ]

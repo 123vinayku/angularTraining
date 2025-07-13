@@ -35,18 +35,22 @@ function checkIfDoneOrNot(id, techId) {
 }
 
 function topicMarkDone(id, techId) {
-	const topicIndex = learningData.find((e) => e.id === techId).concepts.findIndex((e) => e.label === id.replace('_', ' '));
 	const techDetals = learningData.find((e) => e.id === techId);
+	const topicIndex = techDetals.concepts.findIndex((e) => e.label === id.replace('_', ' '));
 	if (topicIndex > -1 && techDetals) {
-		const nextTopicId = makeId(techDetals.concepts[topicIndex + 1].label);
 		const topicButtonElement = document.getElementById(id);
 		const topicButtonCheckMarkElement = document.getElementById(`${id}_checkmark`);
 		topicButtonElement.classList.remove('active');
 		topicButtonCheckMarkElement.classList.remove('none');
-		const nextTopicElement = document.getElementById(nextTopicId);
-		nextTopicElement.removeAttribute('disabled');
 		storeData(techId, id);
-		topicClicked(nextTopicId, techId);
+		if (techDetals.concepts[topicIndex + 1]) {
+			const nextTopicId = makeId(techDetals.concepts[topicIndex + 1].label);
+			const nextTopicElement = document.getElementById(nextTopicId);
+			nextTopicElement.removeAttribute('disabled');
+			topicClicked(nextTopicId, techId);
+		} else {
+			alert(`You have successfully completed the ${techDetals.tech}`);
+		}
 	}
 }
 
@@ -55,6 +59,25 @@ function removeChildButtonsHavingActiveClass(techId) {
 	Array.from(parent.children).forEach((child) => {
 		child.classList.remove('active');
 	});
+}
+
+function makeAssignmentsLinks(id, techId, assignments) {
+	let element = '';
+
+	for (let i = 0; i < assignments.length; i++) {
+		element += `
+            <li>
+                <a
+                    href="${assignments[i].link}"
+                    id="${techId}_${makeId(assignments[i].label)}"
+                    target="_blank">
+                    ${assignments[i].label}
+                </a>
+            </li>
+        `;
+	}
+
+	return element;
 }
 
 function topicClicked(id, techId) {
@@ -73,7 +96,7 @@ function topicClicked(id, techId) {
 				<a
 					href="${topicDetails.link}"
 					target="_blank"
-					class="btn btn-primary"
+					class="btn btn-primary ${topicDetails.link ? '' : 'none'}"
 					id="openLink">
 					Open Link
 				</a>
@@ -87,7 +110,7 @@ function topicClicked(id, techId) {
 				</button>
 			</div>
 		</div>
-		<div class="iframe">
+		<div class="iframe ${topicDetails.link ? '' : 'none'}">
 			<iframe
 				src="${topicDetails.link}"
 				allowfullscreen="true"
@@ -97,6 +120,11 @@ function topicClicked(id, techId) {
 				width="100%"
 				height="500"></iframe>
 		</div>
+        <div class="assignmentList ${topicDetails.assignments.length ? '' : 'none'}">
+            <ol>
+                ${makeAssignmentsLinks(id, techId, topicDetails.assignments)}
+            </ol>
+        </div>
     `;
 	parentFrameElement.innerHTML = frameElement;
 }

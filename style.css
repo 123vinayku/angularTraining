@@ -53,3 +53,7 @@
 .none {
 	display: none;
 }
+
+.assignmentList {
+	padding: 10px 0;
+}
