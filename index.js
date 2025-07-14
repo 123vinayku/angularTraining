@@ -120,11 +120,17 @@ function topicClicked(id, techId) {
 				width="100%"
 				height="500"></iframe>
 		</div>
-        <div class="assignmentList ${topicDetails.assignments.length ? '' : 'none'}">
-            <ol>
-                ${makeAssignmentsLinks(id, techId, topicDetails.assignments)}
-            </ol>
-        </div>
+        ${
+			topicDetails.assignments && topicDetails.assignments.length
+				? `
+            <div class="assignmentList ${topicDetails.assignments && topicDetails.assignments.length ? '' : 'none'}">
+                <ol>
+                    ${makeAssignmentsLinks(id, techId, topicDetails.assignments)}
+                </ol>
+            </div>
+        `
+				: ''
+		}
     `;
 	parentFrameElement.innerHTML = frameElement;
 }
